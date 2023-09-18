@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Roboto, sans-serif, arial;
+}
+html, body 
+	{
+	overflow-x: hidden;
+	font-size: 14px;
+	font-weight: 400;
+	background: #110242;
+	color: #fff;
+}
+.container {
+	width: 1100px;
+	margin: 0px auto;
+	display: table;
+}
+.main-text {
+	width: 33%;
+	float: left;
+}
+.nav-words {
+	width: 66%;
+	float: left;
+}
+.main-panel {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 100vh;
+}
+
+.logo {
+	font-size: 35px;
+	font-weight: 550;
+}
+
+.span-col {
+	color: #b8499e;
+	
+}
+
+nav {
+	float: right;
+	;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 20px;
+	color: white;
+}
+.width-50 {
+	float: left;
+	width: 50%;
+}
+.banner-section {
+	width: 100%;
+	float: left;
+	margin-top: 30vh;
+}
+.banner-section h1 {
+	font-size: 90px;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+.banner-section h2 {
+	font-size: 23px;
+	line-height: 25px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+
+.main-panel img {
+	margin-top: 10%;
+	width: 100%;
+	margin-left: 10%;
+	float: right;
+	
+}
+/*ABOUT US SECTION*/
+.main-section {
+	width: 140%;
+	float: center;
+	padding: 110px 0px 110px 0px;
+}
+.width-100 {
+	width: 100%;
+	float: left;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.heading-text {
+	width: 95%;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #b8499e;
+}
+.about-us {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+.about-us p {
+	font-size: 16px;
+	margin-top: 15px;
+	line-height: 27px;
+    text-align: center;
+    padding: left 15px;
+}
+table {
+	width: 100%;
+	margin-left: auto;  
+	margin-right: auto;
+	padding: 10px 10px;
+}
+table th, td {
+	font-size: 16px;
+	text-align: center;
+	margin-left: auto;  
+	margin-right: auto; 
+}
+/*****SKILL SECTION*****/
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+}
+.skill-text {
+	width: 32%;
+	font-size: 35px;
+	text-align: right;
+	margin-bottom: 30px;
+	color: #b8499e;
+}
+
+.skill span {
+	float: center;
+}
+
+.skill div {
+	width: 100%;
+	float: right;
+	margin-top: 5px;
+	background: #e7e7e7;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.skill div span {
+	background: #b8499e;
+	height: 5px;
+	float: left;
+	width: 50%;
+}
+/*****EXPERIENCE SECTION*****/
+.bg-lightgrey {
+	background-color: #3c0b40;
+}
+.edu-exp {
+	padding: 10px 0px;
+	width: 48%;
+	margin: 1%;
+	float: left;
+	padding-left: 10px;
+}
+.experience-list {
+	width: 100%;
+	float: left;
+	padding: 30px 10px;
+	background: #b8499e;
+	margin-bottom: 20px;
+}
+.experience-content {
+	width: 100%;
+	float: left;
+	margin-left: 10px;
+}
+.experience-content h2 {
+	color: #110242;
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.experience-content h3 {
+	color: #110242;
+	font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 17px;
+}
+.experience-content p {
+	font-size: 15px;
+	color: #110242;
+}
+
+
+/*****FOOTER SECTION*****/
+.footer {
+	background-color: #000000;
+	padding: 30px 0px 40px 0px;
+	width: 100%;
+	float: left;
+}
